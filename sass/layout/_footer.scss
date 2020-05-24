@@ -14,12 +14,12 @@
     }
 
     &__navigation {
-        text-align: center;
+        // text-align: center;
         margin-bottom: 8rem;
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
-
-
+        display: inline-block;
+        margin-left: 34rem;
     }
 
     &__list {
