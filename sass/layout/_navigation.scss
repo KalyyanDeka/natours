@@ -39,7 +39,6 @@
         top: 0;
         left: 0;
         z-index: 1500;
-
         opacity: 0;
         width: 0;
         transition: all .8s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
@@ -122,6 +121,7 @@
             transition: all .2s;
         }
 
+        // transform-origin: right;
         &::before { top: -.8rem; }
         &::after { top: .8rem; }
     }
