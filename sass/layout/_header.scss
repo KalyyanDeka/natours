@@ -10,11 +10,19 @@
 	background-position: top;
 	position: relative;
 
+		@include respond(tab-port) {
+			margin-bottom: 8rem;
+		}
+
+		@include respond(phone) {
+			margin-bottom: 4rem;
+		}
+
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 
 	@include respond(phone) {
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 		clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 	}
 
